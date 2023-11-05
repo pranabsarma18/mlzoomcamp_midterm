@@ -59,3 +59,7 @@ Note: If the docker daemon is not running, run the following code.
 Make sure the web service is on, then simply run the following code.
 
 `python predict-test.py`
+
+# Cloud Deployment
+
+in the making ... (expect this by 06/11/2023)
