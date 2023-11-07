@@ -1,5 +1,7 @@
 # Smoker Status Prediction using Bio-Signals
 
+![Smoker Status Prediction using Bio-Signals](/smoking.jpg)
+
 Smoking is well-documented to have a profoundly detrimental impact on human health, affecting a wide array of bodily organs and leading to the development of numerous diseases. It significantly reduces the overall life expectancy of those who smoke. As of 2018, smoking has been recognized as the leading cause of preventable morbidity and mortality worldwide, posing a persistent threat to global public health.
 
 According to a report from the World Health Organization, it is projected that the number of deaths attributable to smoking will reach a staggering 10 million by the year 2030.
