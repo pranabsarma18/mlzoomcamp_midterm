@@ -96,6 +96,12 @@ Make sure the web service is on, then simply run the following code.
 
 # Running the app from the Cloud
 
-The app is hosted on Heroku. To test run the app edit the `url` variable of <a href="https://github.com/pranabsarma18/mlzoomcamp_midterm/blob/main/predict-test.py">predict-test.py</a> as:
+The app is hosted on Heroku. 
+
+To test run the app edit the `url` variable of <a href="https://github.com/pranabsarma18/mlzoomcamp_midterm/blob/main/predict-test.py">predict-test.py</a> as follows:
 
 `url = https://ml-zoom-docker-ab273c292374.herokuapp.com/predict`
+
+Now, run the following command from anywhere:
+
+`python predict-test.py`
