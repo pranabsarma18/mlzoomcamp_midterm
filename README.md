@@ -53,21 +53,51 @@ If you are having error with python version, remove the following lines from Pip
 python_version = "3.10"
 ```
 
-Now run the following:
+Now run the following to lock project dependencies:
 
 `pipenv lock`
 
-To activate the virtual env simply run the following:
+To activate the virtual environment simply run the following:
 
 `shell pipenv`
 
-Now run the app:
+Now start the server:
 
 `python predict.py`
 
-### Testing the Web Service locally using virtual env
+### Testing the Web Service locally using virtual environment
 
 Once the server is on test the app using predict-test.py file:
+
+In this file we have a test data which consists of different bio-signals collected from the patience. The data is as follows:
+
+{'id': 2,
+ 'age': 40,
+ 'height(cm)': 165,
+ 'weight(kg)': 90,
+ 'waist(cm)': 97.8,
+ 'eyesight(left)': 1.2,
+ 'eyesight(right)': 1.5,
+ 'hearing(left)': '1',
+ 'hearing(right)': '1',
+ 'systolic': 132,
+ 'relaxation': 82,
+ 'fasting blood sugar': 79,
+ 'Cholesterol': 228,
+ 'triglyceride': 192,
+ 'HDL': 56,
+ 'LDL': 134,
+ 'hemoglobin': 16.1,
+ 'Urine protein': 1,
+ 'serum creatinine': 0.9,
+ 'AST': 31,
+ 'ALT': 40,
+ 'Gtp': 65,
+ 'dental caries': '0'}
+
+ Based on this test data, we have to make prediction whether the patient is smoker or not.
+
+ To make prediction, run the following:
 
 `python predict-test.py`
 
@@ -82,11 +112,11 @@ python_version = "3.10"
 
 Create the docker inside your machine.
 
-`docker build -t <tag_name> .`
+`docker build -t smoker-prediction .`
 
 After that, run the following to start the churn web service.
 
-`docker run –it –-rm -p 9696:9696 <tag_name>`
+`docker run –it –-rm -p 9696:9696 smoker-prediction:latest`
 
 ### Testing the Web Service locally using docker
 
