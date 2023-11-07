@@ -65,6 +65,8 @@ Now run the app:
 
 `python predict.py`
 
+### Testing the Web Service locally using virtual env
+
 Once the server is on test the app using predict-test.py file:
 
 `python predict-test.py`
@@ -90,7 +92,7 @@ Note: If the docker daemon is not running, run the following code.
 
 `sudo dockerd`
 
-# Testing the Web Service locally
+### Testing the Web Service locally using docker
 
 Make sure the web service is on, then simply run the following code.
 
