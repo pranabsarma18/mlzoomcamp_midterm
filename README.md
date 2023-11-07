@@ -54,12 +54,13 @@ Note: If the docker daemon is not running, run the following code.
 
 `sudo dockerd`
 
-# Testing the Web Service
+# Testing the Web Service locally
 
 Make sure the web service is on, then simply run the following code.
 
 `python predict-test.py`
 
-# Cloud Deployment
+# Running the app from the Cloud
 
-in the making ... (expect this by 06/11/2023)
+The app is hosted on Heroku. To test run the app edit the `url` variable of predict-test.py as:
+`url = https://ml-zoom-docker-ab273c292374.herokuapp.com/predict`
