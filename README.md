@@ -114,7 +114,7 @@ Create the docker inside your machine.
 
 `docker build -t smoker-prediction .`
 
-After that, run the following to start the churn web service.
+After that, run the following to start the web service.
 
 `docker run –it -p 9696:9696 smoker-prediction:latest`
 
