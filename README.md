@@ -36,6 +36,8 @@ Dataset Description:
 
 # How to Run
 
+## Running the app locally using virtual env
+
 First activate the env inside the clone folder in your machine. Before that make sure your pipenv is already installed on your machine. If not run the following:
 
 `pip install pipenv`
@@ -44,11 +46,35 @@ To create the virtual env with all the dependencies required for the project, ru
 
 `pipenv install`
 
+If you are having error with python version, remove the following lines from Pipfile:
+
+```
+[requires]
+python_version = "3.10"
+```
+
 To activate the virtual env simply run the following:
 
 `shell pipenv`
 
-Then, create the docker inside your machine.
+Now run the app:
+
+`python predict.py`
+
+Once the server is on test the app using predict-test.py file:
+
+`python predict-test.py`
+
+## Running the app using Docker container
+
+Add the following lines back to the Pipfile:
+
+```
+[requires]
+python_version = "3.10"
+```
+
+Create the docker inside your machine.
 
 `docker build -t <tag_name> .`
 
