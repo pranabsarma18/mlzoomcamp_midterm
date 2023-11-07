@@ -38,7 +38,8 @@ Dataset Description:
 
 ## Running the app locally using virtual env
 
-First activate the env inside the clone folder in your machine. Before that make sure your pipenv is already installed on your machine. If not run the following:
+Open your command line interface.
+First activate the environment inside the clone folder in your machine. Before that make sure your pipenv is already installed on your machine. If not run the following:
 
 `pip install pipenv`
 
@@ -120,7 +121,7 @@ After that, run the following to start the web service.
 
 ### Testing the Web Service locally using docker
 
-Make sure the web service is on, then simply run the following code.
+Make sure the web service is on, then simply run the following command to make prediction.
 
 `python predict-test.py`
 
