@@ -36,9 +36,15 @@ Dataset Description:
 
 # How to Run
 
-First activate the env inside the clone folder in your machine.
+First activate the env inside the clone folder in your machine. Before that make sure your pipenv is already installed on your machine. If not run the following:
 
-Make sure your machine already installed pipenv.
+`pip install pipenv`
+
+To create the virtual env with all the dependencies required for the project, run the following:
+
+`pipenv install`
+
+To activate the virtual env simply run the following:
 
 `shell pipenv`
 
