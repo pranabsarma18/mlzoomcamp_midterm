@@ -46,7 +46,7 @@ To create the virtual env with all the dependencies required for the project, ru
 
 `pipenv install`
 
-If you are having error with python version, remove the following lines from Pipfile:
+If you are having error with python version, remove the following lines from Pipfile and run the above command again:
 
 ```
 [requires]
