@@ -53,6 +53,10 @@ If you are having error with python version, remove the following lines from Pip
 python_version = "3.10"
 ```
 
+Now run the following:
+
+`pipenv lock`
+
 To activate the virtual env simply run the following:
 
 `shell pipenv`
